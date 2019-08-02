@@ -94,7 +94,7 @@ or do it manually using xacro.py.
 
 Manually convert XACRO file to plain-XML URDF file:
 
-    rosrun xacro xacro.py file.urdf.xacro >file.urdf
+    rosrun xacro xacro --inorder file.urdf.xacro >file.urdf
 
 Validate URDF file syntax:
 
